@@ -1,4 +1,6 @@
 README.md
+badge.py
+setup.py
 badge.egg-info/PKG-INFO
 badge.egg-info/SOURCES.txt
 badge.egg-info/dependency_links.txt
