@@ -1,0 +1,7 @@
+{
+  "name": "medalla de plata",
+  "description": "descripcion",
+  "criteria": [
+    "criterio1", "criterio2", "criterio3"
+  ]
+}
