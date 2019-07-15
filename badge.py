@@ -15,7 +15,7 @@ def new(json_file, image_file):
     openbadge_json = json.load(json_file)
     png = image_file.read()
     try:
-        openbadge_json['image'] = base64.b64encode(png)
+        openbadge_json['image'] = base64.encodebytes(png).decode('utf-8')
         response=requests.post('http://vituin-chat.iaas.ull.es/api/newbadge', json=openbadge_json)
         click.echo(response.text)
     except Exception as error:
