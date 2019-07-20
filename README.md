@@ -1,4 +1,10 @@
-# badge-cli
-install:
-source venv/bin/activae
+Interfaz de línea de comandos para crear un badge
+=================================================
+
+**Instalación** 
+source venv/bin/activate
 pip install --editable .
+
+
+**Uso**
+badge new [fichero.json] [fichero.png]
