@@ -1,7 +1,7 @@
 {
-  "name": "medalla de oro",
-  "description": "descripcion",
+  "name": "Medalla de oro",
+  "description": "La medalla es de oro",
   "criteria": [
-    "criterio1", "criterio2", "criterio3"
+    "Conseguir la primera posición"
   ]
 }
