@@ -20,4 +20,3 @@ def create(json_file, image_file):
         click.echo(response.text)
     except Exception as error:
         print(str(error))
-
