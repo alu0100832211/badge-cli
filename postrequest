@@ -1,0 +1,18 @@
+_message: <RawRequestMessage(method='POST', path='/api/badges/create?name=1&description=alskdflkasjdf&criteria=[oijioqwer,%20qeworjqwer,%20qwoerkjqwoekrj]&image_data=pepe', version=HttpVersion(major=1, minor=0), headers=<CIMultiDictProxy('Host': 'localhost:5000', 'Connection': 'close', 'Content-Length': '0', 'User-Agent': 'PostmanRuntime/7.15.0', 'Accept': '*/*', 'Cache-Control': 'no-cache', 'Postman-Token': 'f380d804-e610-4884-9596-ff645ebfdb6c', 'Accept-Encoding': 'gzip, deflate')>, raw_headers=((b'Host', b'localhost:5000'), (b'Connection', b'close'), (b'Content-Length', b'0'), (b'User-Agent', b'PostmanRuntime/7.15.0'), (b'Accept', b'*/*'), (b'Cache-Control', b'no-cache'), (b'Postman-Token', b'f380d804-e610-4884-9596-ff645ebfdb6c'), (b'accept-encoding', b'gzip, deflate')), should_close=True, compression=None, upgrade=False, chunked=False, url=URL('/api/badges/create?name=1&description=alskdflkasjdf&criteria=%5Boijioqwer,%20qeworjqwer,%20qwoerkjqwoekrj%5D&image_data=pepe'))>
+_protocol: <RequestHandler connected>
+_payload_writer: <aiohttp.http_writer.StreamWriter object at 0x7f042f729128>
+_payload: <aiohttp.streams.EmptyStreamReader object at 0x7f04305e2fd0>
+_headers: <CIMultiDictProxy('Host': 'localhost:5000', 'Connection': 'close', 'Content-Length': '0', 'User-Agent': 'PostmanRuntime/7.15.0', 'Accept': '*/*', 'Cache-Control': 'no-cache', 'Postman-Token': 'f380d804-e610-4884-9596-ff645ebfdb6c', 'Accept-Encoding': 'gzip, deflate')>
+_method: POST
+_version: HttpVersion(major=1, minor=0)
+_rel_url: /api/badges/create?name=1&description=alskdflkasjdf&criteria=%5Boijioqwer,%20qeworjqwer,%20qwoerkjqwoekrj%5D&image_data=pepe
+_post: None
+_read_bytes: None
+_state: {}
+_cache: {'method': 'POST', 'scheme': 'http', 'host': 'localhost:5000', 'url': URL('http://localhost:5000/api/badges/create?name=1&description=alskdflkasjdf&criteria=%5Boijioqwer,%20qeworjqwer,%20qwoerkjqwoekrj%5D&image_data=pepe'), 'rel_url': URL('/api/badges/create?name=1&description=alskdflkasjdf&criteria=%5Boijioqwer,%20qeworjqwer,%20qwoerkjqwoekrj%5D&image_data=pepe'), 'headers': <CIMultiDictProxy('Host': 'localhost:5000', 'Connection': 'close', 'Content-Length': '0', 'User-Agent': 'PostmanRuntime/7.15.0', 'Accept': '*/*', 'Cache-Control': 'no-cache', 'Postman-Token': 'f380d804-e610-4884-9596-ff645ebfdb6c', 'Accept-Encoding': 'gzip, deflate')>}
+_task: <Task pending coro=<RequestHandler.start() running at /home/mbelda/repos/slack-badges-bot/venv/lib/python3.7/site-packages/aiohttp/web_protocol.py:418> wait_for=<Task pending coro=<Application._handle() running at /home/mbelda/repos/slack-badges-bot/venv/lib/python3.7/site-packages/aiohttp/web_app.py:458> cb=[<TaskWakeupMethWrapper object at 0x7f042f84f8e8>()] created at /home/mbelda/repos/slack-badges-bot/venv/lib/python3.7/site-packages/aiohttp/web_protocol.py:417> created at /home/mbelda/repos/slack-badges-bot/venv/lib/python3.7/site-packages/aiohttp/web_protocol.py:223>
+_client_max_size: 1048576
+_loop: <_UnixSelectorEventLoop running=True closed=False debug=True>
+_transport_sslcontext: None
+_transport_peername: ('127.0.0.1', 53632)
+_match_info: <MatchInfo {}: <ResourceRoute [POST] <PlainResource  /api/badges/create> -> <bound method WebService.create_badge of <slack_badges_bot.adapters.api.WebService object at 0x7f0432752e48>>>
