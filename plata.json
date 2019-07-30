@@ -3,6 +3,5 @@
   "description": "descripcion",
   "criteria": [
     "criterio1", "criterio2", "criterio3"
-  ],
-  "image_url": "https://i.imgur.com/RlmjOYc.png"
+  ]
 }
