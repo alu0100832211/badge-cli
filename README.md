@@ -10,6 +10,6 @@ $ pip install --editable .
 
 **Uso**
 ```
-$ badge new [fichero.json] [fichero.png]
+$ badge create [fichero.json] [fichero.png]
 $ badge --help
 ```
