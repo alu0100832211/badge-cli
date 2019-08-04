@@ -11,6 +11,7 @@ setup(
     install_requires=[
         'Click',
         'requests',
+        'pillow'
     ],
     entry_points='''
         [console_scripts]

@@ -1,6 +1,6 @@
 {
-  "name": "medalla de bronce",
-  "description": "descripcion",
+  "name": "Medalla de Bronce",
+  "description": "Descripción de la medalla de Bronce que tiene más de 10 caracteres",
   "criteria": [
     "criterio1", "criterio2", "criterio3"
   ]
