@@ -3,7 +3,7 @@ Interfaz de línea de comandos para crear un badge
 
 **Instalación** 
 ```
-$ pipenv install -e .
+$ pipenv install
 $ pipenv shell
 ```
 
