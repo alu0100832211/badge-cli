@@ -3,9 +3,8 @@ Interfaz de línea de comandos para crear un badge
 
 **Instalación** 
 ```
-$ source venv/bin/activate
-
-$ pip install --editable .
+$ pipenv install -e .
+$ pipenv shell
 ```
 
 **Uso**
